@@ -1,0 +1,23 @@
+Exception in thread "main" java.lang.NoClassDefFoundError: org/apache/logging/log4j/spi/AbstractLoggerAdapter
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1095)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:206)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:760)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassInModuleOrNull(BuiltinClassLoader.java:681)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:606)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at org.apache.logging.log4j.slf4j.impl@2.11.0/org.slf4j.impl.StaticLoggerBinder.<clinit>(StaticLoggerBinder.java:36)
+	at slf4j.api@1.7.25/org.slf4j.LoggerFactory.bind(LoggerFactory.java:150)
+	at slf4j.api@1.7.25/org.slf4j.LoggerFactory.performInitialization(LoggerFactory.java:124)
+	at slf4j.api@1.7.25/org.slf4j.LoggerFactory.getILoggerFactory(LoggerFactory.java:412)
+	at slf4j.api@1.7.25/org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:357)
+	at slf4j.api@1.7.25/org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:383)
+	at com.noname.alpha.core/com.noname.alpha.core.internal.Launcher.<clinit>(Launcher.java:38)
+Caused by: java.lang.ClassNotFoundException: org.apache.logging.log4j.spi.AbstractLoggerAdapter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+
