@@ -6,7 +6,10 @@ This is part of the final video for the TU Delft course "Software Testing and Re
 * IntelliJ IDEA preferably
 
 ## Cleaning a stacktrace
+Run the following command in project directory:  
+* java -jar botsing-preprocessing-1.0.4.jar -e -i=unclean_stacktrace.txt -o=output.log 
 
+Compare the unclean_stactrace.txt to the processed one in output.log  
 
 ## Recreating the Experiment
 * Clone project
