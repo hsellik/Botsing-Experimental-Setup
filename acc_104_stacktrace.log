@@ -1,0 +1,2 @@
+java.lang.ArrayIndexOutOfBoundsException:
+    at org.apache.commons.collections.buffer.BoundedFifoBuffer.remove(BoundedFifoBuffer.java:347)

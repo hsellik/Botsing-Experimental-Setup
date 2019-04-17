@@ -1,0 +1,7 @@
+java.lang.IllegalArgumentException: Initial capacity must be greater than 0
+    at org.apache.commons.collections.map.AbstractHashedMap.(AbstractHashedMap.java:142)
+    at org.apache.commons.collections.map.AbstractHashedMap.(AbstractHashedMap.java:127)
+    at org.apache.commons.collections.map.AbstractLinkedMap.(AbstractLinkedMap.java:95)
+    at org.apache.commons.collections.map.LinkedMap.(LinkedMap.java:78)
+    at org.apache.commons.collections.map.TransformedMap.transformMap(TransformedMap.java:153)
+    at org.apache.commons.collections.map.TransformedMap.putAll(TransformedMap.java:190)

@@ -1,0 +1,2 @@
+Exception in thread "main" java.lang.NullPointerException
+at org.apache.commons.collections4.collection.CompositeCollection.size(CompositeCollection.java:103)
